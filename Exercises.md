@@ -58,15 +58,24 @@ where source and destination are any valid unix path
 
 
 ## Submitting jobs
-1. (single core) Using `nano` or your favorite text editor, create a SLURM submission script to run the `FastQTL` example code. Use the following parameters...
+1. (single core) Using `nano` or your favorite text editor, create a SLURM submission script to run the `fastQTL` example code. We'll give you some biolerplate work...
 
 ```bash
--V $FASTQTL_HOME/example/genotypes.vcf.gz
--B $FASTQTL_HOME/example/phenotypes.bed.gz 
+source new-modules.sh
+module load gcc FastQTL
+cp -r $FASTQTL_HOME/example ./fastqtl_example
+cd fastqtl_example
+```
+
+And use the following parameters...
+
+```bash
+-V genotypes.vcf.gz
+-B phenotypes.bed.gz 
 -O file.results.gz 
 -L file.log 
---include-covariates $FASTQTL_HOME/example/covariates.txt.gz 
---region 12:0-2000000
+--include-covariates covariates.txt.gz 
+--region 22:17517460-24322660
 ```
 
 Also, include an email notification for END (at the least!) for yourself so that you know the status of your work.
