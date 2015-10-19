@@ -39,17 +39,17 @@ where source and destination are any valid unix path
 
 
 ## Loading/installing software
-0. Issue the command `bowtie`. What happens?
-1. Issue the appropriate command to display what modules do you currently have loaded. What are they?
-2. Using the appropriate command, find what versions of `bowtie` are on the cluster.
-3. Load the latest version of bowtie. What command did you use?
-4. What modules do you have loaded now?
-5. Issue the `bowtie` command now. What's different?
+1. Issue the command `bowtie`. What happens?
+2. Issue the appropriate command to display what modules do you currently have loaded. What are they?
+3. Using the appropriate command, find what versions of `bowtie` are on the cluster.
+4. Load the latest version of bowtie. What command did you use?
+5. What modules do you have loaded now?
+6. Issue the `bowtie` command now. What's different?
 
-6. Load in the legacy modules
-6. Look for the versions of `bowtie` on the cluster again. What do you notice?
+7. Load in the legacy modules
+8. Look for the versions of `bowtie` on the cluster again. What do you notice?
 
-0. (Bonus!) Use the text editor `nano` to modify your `.bashrc` to opt-in for the new modules
+9. (Bonus!) Use the text editor `nano` to modify your `.bashrc` to opt-in for the new modules
 
 
 ## Login/Interactive sessions
