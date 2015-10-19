@@ -8,10 +8,10 @@
 
 ## Filesystems: Transferring files
 1. Transferring files with FileZilla
-  1a. Download the file at https://github.com/fasrc/DataC-HPC-genomics/blob/master/data/genome_data.zip?raw=true to your desktop
-  1b. Using FileZilla transfer this file to your Odyssey account home/login folder
-  2a. On your laptop's Desktop, unzip the genome_data.zip archive
-  2b. Using Filezilla, transfer the genome_data folder over to your home folder on Odyssey
+  1. Download the file at https://github.com/fasrc/DataC-HPC-genomics/blob/master/data/genome_data.zip?raw=true to your desktop
+  1. Using FileZilla transfer this file to your Odyssey account home/login folder
+  2. On your laptop's Desktop, unzip the genome_data.zip archive
+  2. Using Filezilla, transfer the genome_data folder over to your home folder on Odyssey
 
 `rsync` can transfer files within hosts or across hosts. The format is:
   
@@ -35,26 +35,26 @@ where source and destination are any valid unix path
   1. df /
   2. df .
   3. df -h .
-3. Do you know what other fileystems are available on Odyssey? What command would you use to see this?
+3. What command would you use to see what other fileystems are available on Odyssey? ?
 
 
 ## Loading/installing software
-1. What modules do you currently have loaded
-2. Use the module spider command to find Trinity
-3. load the latest version
-4. what modules do you have loaded now?
+0. Issue the command `bowtie`. What happens?
+1. Issue the appropriate command to display what modules do you currently have loaded. What are they?
+2. Using the appropriate command, find what versions of `bowtie` are on the cluster.
+3. Load the latest version of bowtie. What command did you use?
+4. What modules do you have loaded now?
+5. Issue the `bowtie` command now. What's different?
 
-5. load in the legacy modules
-6. module spider Trinity again. what do you notice?
+6. Load in the legacy modules
+6. Look for the versions of `bowtie` on the cluster again. What do you notice?
 
 0. (Bonus!) Use the text editor `nano` to modify your `.bashrc` to opt-in for the new modules
 
 
 ## Login/Interactive sessions
 1. Issue the appropriate command to get an interactive session w/ 4 GB RAM for 60 minutes
-2. Issue the appropriate command to load the latest MATLAB software using the Lmod (new) module system
-3. Start a MATLAB session
-
+2. Start a MATLAB command-line session. What commands do you need to issue to do this?
 
 
 ## Submitting jobs
