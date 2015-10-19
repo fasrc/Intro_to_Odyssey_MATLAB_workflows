@@ -73,5 +73,5 @@ Also, include an email notification for END (at the least!) for yourself so that
 
 2. Once your job completes successfully, how much RAM did your job use? What command did you use? Go back and modify your job script to use the appropriate amount of RAM.
 
-3. (multicore) `FastQTL` can be parallelized easily using one of its options to create a command list. This command list can be passed to the program `gnu_parallel`. Create a new submission script to process the `FastQTL` command list under `gnu_parallel` using 4 CPUs/cores. Ensure that you use the correct options for SLURM and `gnu_parallel` to specify this core count and the command list.
+3. (multicore) `FastQTL` can be parallelized easily using one of its options to create a command list. This command list can be passed to the program GNU Parallel `parallel`. Create a new submission script to process the `FastQTL` command list under `parallel` using 4 CPUs/cores. Ensure that you use the correct options for SLURM and `parallel` to specify this core count and the command list.
 
