@@ -67,7 +67,7 @@ cp -r $FASTQTL_HOME/example ./fastqtl_example
 cd fastqtl_example
 ```
 
-And use the following parameters...
+And execute `fastQTL` using the following parameters...
 
 ```bash
 -V genotypes.vcf.gz
