@@ -58,7 +58,7 @@ where source and destination are any valid unix path
 
 
 ## Submitting jobs
-1. (single core) Using `nano` or your favorite text editor, create a SLURM submission script to run the `fastQTL` example code. We'll give you some biolerplate work...
+1. (single core) Using `nano` or your favorite text editor, create a SLURM submission script to run the following example code. We'll give you some biolerplate work...
 
 ```bash
 # get the name of the compute node we're on
