@@ -15,4 +15,4 @@
 source new-modules.sh
 module load matlab
 
-matlab -nojvm -nodisplay -nosplash -r "means_from_file('$1')"
+matlab -nojvm -nodisplay -nosplash -r "means_from_file('$1'); exit"
