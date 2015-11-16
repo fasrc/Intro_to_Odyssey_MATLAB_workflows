@@ -22,5 +22,5 @@ module load matlab
 sleep $(( ( RANDOM % $SLURM_ARRAY_TASK_ID )  + 1 ))
 
 # so tell our MATLAB code what file to choose and what line to keep
-matlab -nojvm -nodisplay -nosplash -r "process_file_in_array('$1', $SLURM_ARRAY_TASK_ID); exit"
+matlab -nojvm -nodisplay -nosplash -r "process_file_in_array('$1, $SLURM_ARRAY_TASK_ID'); exit"
 
