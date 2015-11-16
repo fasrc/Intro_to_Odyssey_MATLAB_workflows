@@ -1,6 +1,6 @@
 ## Integrating MATLAB Workflows on Odyssey
 
-This document will go over the usage patterns for executing MATLAB code on Odyssey. Example files can be obtained from [http://fasrc.github.io/2015-07-22_SWC-R/class_data/swc_r_integration.tgz](http://fasrc.github.io/2015-07-22_SWC-R/class_data/swc_r_integration.tgz).
+This document will go over the usage patterns for executing MATLAB code on Odyssey. Example files can be obtained from [https://github.com/fasrc/Intro_to_Odyssey_MATLAB_workflows/raw/master/matlab_integration.tgz](https://github.com/fasrc/Intro_to_Odyssey_MATLAB_workflows/raw/master/matlab_integration.tgz).
 
 ### Run RStudio using RC's NoMachine
 It is possible to use GUI applications on Odyssey by making a remote desktop session with our GUI login server NoMachineX. Please see http://fasrc.us/nxsession for setup and instructions.
