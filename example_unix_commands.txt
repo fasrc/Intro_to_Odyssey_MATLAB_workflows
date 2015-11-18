@@ -1,0 +1,46 @@
+Basic & Essential Unix Commands
+
+# print your current (working) directory
+pwd
+
+# change directory
+cd /tree
+cd down_one_dir
+cd ~
+cd ..
+
+# make a new directory
+mkdir
+
+# list files
+ls
+ls -F
+ls -al
+ls -al somedir
+
+# copy files
+cp onefile to_there/
+cp onefile twofile to_there/
+cp -R directory to_there/
+
+# move or rename
+mv onefile somedir
+mv onefile somedir/newname
+mv onefile newname
+
+# remove files
+rm onefile
+rmdir some_empty_directory
+rm -rf directory
+
+# show the first 10 lines
+head somefile.txt
+head -n 5 somefile.txt
+
+# show the last 10 lines
+tail somefile.txt
+tail -n 5 somefile.txt
+
+# show the whole file
+cat somefile.txt
+
