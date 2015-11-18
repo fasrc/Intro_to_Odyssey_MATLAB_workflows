@@ -2,10 +2,10 @@
 
 This document will go over the usage patterns for executing MATLAB code on Odyssey. Example files can be obtained from [https://github.com/fasrc/Intro_to_Odyssey_MATLAB_workflows/raw/master/matlab_integration.tgz](https://github.com/fasrc/Intro_to_Odyssey_MATLAB_workflows/raw/master/matlab_integration.tgz).
 
-### Run RStudio using RC's NoMachine
+### Run MATLAB using RC's NoMachine
 It is possible to use GUI applications on Odyssey by making a remote desktop session with our GUI login server NoMachineX. Please see http://fasrc.us/nxsession for setup and instructions.
 
-### Run RStudio by getting an X11 ssh login session
+### Run MATLAB by getting an X11 ssh login session
 The X11 protocol is rather network-intensive, so doing X11 sessions require patience, and we highly recommend using a wired ethernet connection. But, you can do so following the instructions at https://rc.fas.harvard.edu/resources/access-and-login/#Setup_X11_forwarding_for_lightweight_graphical_applications. Once you have your GUI session, get an interactive session on a compute node, load RStudio, and execute it:
 
 ```bash
